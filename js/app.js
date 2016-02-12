@@ -33,7 +33,7 @@ $(document).ready(function() {
   $('body').keydown(function(key) {
 
     if (key.which == 88){
-      $('.ryu-still').hide();
+      $('.ryu-still, .ryu-ready').hide();
       $('.ryu-cool').show();
     }
  })
